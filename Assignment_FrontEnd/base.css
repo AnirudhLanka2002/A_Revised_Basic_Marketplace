@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lexend&family=Unbounded:wght@500&display=swap');
+
+*{
+    font-family: 'Lexend', sans-serif;
+    /* font-family: 'Unbounded', cursive; */
+    /* font-family: 'Fasthand', cursive; */
+}
+
+body{
+    /* default for linear gradient is top to bottom. to basically "to bottom". */
+    background-image: linear-gradient(to right, rgb(145, 73, 244), rgb(252, 98, 98)); 
+}
+h1{
+    text-align: center;
+    text-shadow: 5px solid black;
+    letter-spacing: 10px;
+    font-size: xx-large;
+}
+
+.base_line{
+    background-image: linear-gradient(to right, rgb(185, 141, 246), rgb(84, 38, 237));
+    position: relative;
+    width:100%;
+    height:10px;
+    padding: 0;
+    margin-left:0px;
+}
+
+.wrapper{
+    padding-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    gap:50px;
+    border-top-width: 20px;
+    border-top-color: rgb(133, 50, 250);
+}
+.item{
+    background-color: #f9f9f9;
+    display: inline-flex;
+    width:1000px;
+    height:250px;
+    align-self: center;
+    border-radius: 40px;
+    gap:10px;
+}
+.item_enclose{
+    display: flex;
+    gap:50px;
+}
+button{
+    background-image: linear-gradient(to right, rgb(133, 50, 250), rgb(249, 53, 53)); 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Unbounded', cursive;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    transition: all .3s ease-out;
+    /* transition: background-image .3s ease-in; */
+}
+button:hover{
+    background-image: linear-gradient(to right, rgb(166, 108, 247), rgb(133, 50, 250));
+    letter-spacing: 3px;
+}
+
+.image img{
+    width:auto;
+    height:100%;
+    border-top-left-radius:40px;
+    border-bottom-left-radius:40px;
+}
+
+.buttons{
+    padding-top: 40px;
+}
+
+.buttons input{
+    border:none;
+    width:100;
+    height:20px;
+}
+
+.number{
+    border: none;
+    background-color: #f9f9f9;
+}
+.billing{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.border2{
+    width:auto;
+    height:20px;
+}
+
+.total input{
+    border: none;
+    padding:15px 2px;
+    font-size: x-large;
+}
+
+.final_verdit{
+    font-size: larger;
+}
+
+.final_verdit input{
+    border:none;
+    font-size: larger;
+}
+
+.final2 input{
+    border: none;
+    padding:15px 2px;
+    font-size: x-large;
+}

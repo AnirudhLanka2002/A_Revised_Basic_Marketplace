@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Website</title>
+    <link rel = "stylesheet" href = "base.css">
+    <script src = "base.js"></script>
+</head>
+<body>
+    <h1><b>Welcome to the Mart</b></h1>
+    <div class= "base_line"></div>
+    <section class = "wrapper">
+        <!-- We are making 3 item showcase. -->
+        <!-- Making the basic layout -->
+        <div class = "item_enclose">
+            <div class = "item">
+                <div class = "image">
+                    <img src = "61m4aOy7TiL._SX679_.jpg">
+                </div>
+                <div class = "text_description">
+                    <p><b>Lenovo Ideapad Flex 5</b></p>
+                    <p>Lenovo IdeaPad Flex 5 AMD Ryzen 5 5500U 14" (35.56cm) WUXGA IPS 2-in-1 Convertible Touchscreen Laptop (16GB/512GB SDD/Win11/Office 2021/Backlit/FPR/3months Game Pass/Storm Grey/1.55Kg), 82R9008GIN</p>
+                    <p><b>₹63,490</b></p>
+                </div>
+            </div>
+            <div class = "buttons">
+                <button class = "increment" onclick="inc1()" >Add to Cart</button>
+                &nbsp;
+                <button class = "increment" onclick="dec1()" >Remove from Cart</button>
+                <br />
+                <br />
+                <label>Qty: </label><input class = "number" value = 0 disabled id = "val1" />
+            </div>
+        </div>
+
+        <div class = "item_enclose">
+            <div class = "item">
+                <div class = "image">
+                    <img src = "71an9eiBxpL._SX679_.jpg">
+                </div>
+                <div class = "text_description">
+                    <p><b>MSI Stealth 15</b></p>
+                    <p>MSI Stealth 15, Intel 13th Gen. i7-13620H, 40CM FHD 144Hz Gaming Laptop (16GB/1TB NVMe SSD/Windows 11 Home/Nvidia GeForce RTX4050, 6GB GDDR6/Black/2.1Kg), A13VE-034IN</p>
+                    <p><b>₹1,58,897</b></p>
+                </div>
+            </div>
+            <div class = "buttons">
+                <button class = "increment" onclick="inc2()" >Add to Cart</button>
+                &nbsp;
+                <button class = "increment" onclick="dec2()" >Remove from Cart</button>
+                <br />
+                <br />
+                <label>Qty: </label><input class = "number" value = 0 disabled id = "val2" />
+            </div>
+            
+        </div>
+            
+        <div class = "item_enclose">
+            <div class = "item">
+                <div class = "image">
+                    <img src = "71an9eiBxpL._SX679_.jpg">
+                </div>
+                <div class = "text_description">
+                    <p><b>MacBook Pro 14 Inch</b></p>
+                    <p>Apple 2020 MacBook Pro (13.3-inch/33.78 cm, M1 chip with 8‑core CPU and 8‑core GPU, 8GB RAM, 256GB SSD) - Space Grey</p>
+                    <p><b>₹1,79,999</b></p>
+                </div>
+            </div>
+            <div class = "buttons">
+                <button class = "increment" onclick="inc3()">Add to Cart</button>
+                &nbsp;
+                <button class = "increment" onclick="dec3()" >Remove from Cart</button>
+                <br />
+                <br />
+                <label>Qty: </label><input class = "number" value = 0 disabled id = "val3" />
+            </div>
+        </div>
+    </section>
+    <div class = "border2"></div>
+    <br />
+    <h2>Billing: </h2>
+    <div class = "billing">
+        <div class = "beforee">
+            <div class = "total">
+                <label><b>Total: </b></label><input type = "number" disabled id = "billing" value = 0 class = "number" />
+            </div>
+            <div class = "final">
+                <button class = "increment1" onclick = "final()">Confirm Billing</button>
+            </div>
+        </div>
+                
+    </div>
+</body>
+</html>
